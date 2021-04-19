@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i,300i,400,500i,700i,900i&display=swap');
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.no-padding{
+    padding: 0px;
+}
+nav{
+background-color: #648CFF;
+}
+.social-icn {
+    display: inline;
+    padding: 15px 50px;
+    margin: 0px;
+}
+.social-icn li {
+    display: inline-block;
+    padding: 5px 15px;
+}
+.social-icn li i{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+}
+.social-icn li i:hover{
+    color: lightblue;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #C7D5FF;
+    padding: 0px 35px;
+    font-weight: 400;
+}
+/*********************************************
+*********banner feature***********************
+**********************************************/
+.banner{
+    background-image: url(../img/srceen-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0px;
+}
+.banner h1 {
+    font-size: 65px;
+    padding: 70px 0px 15px 0px;
+    color: white;
+}
+.banner p {
+    font-size: 21px;
+    color: white;
+    margin-bottom: 45px;
+}
+.banner .btn1 {
+    background: #FC6A42;
+    padding: 12px 30px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.banner .btn2{
+    background: #4466C9;
+    padding: 13px 30px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 19px; 
+    text-decoration: none;  
+}
+.banner img{
+    margin: 0px 0px 0px -75px;
+}
+/*********************************************
+*********banner feature end***********************
+**********************************************/
+
+
+/*********************************************
+********* feature***********************
+**********************************************/
+.feature-header{
+    margin: 60px 0px;
+}
+.feature-header h1{
+    font-size: 45px;
+    color: #648CFF;    
+}
+.feature-header p {
+    color: #A5A5A5;
+    font-size: 20px;
+    margin: 9px 0px;
+}
+.feature{
+    margin: 100px 0px 150px 0px;
+}
+.feature-inner{
+position: relative;
+}
+.feature-inner img{
+
+}
+.feature-inner .featureinner-text{
+    position: absolute;
+    top: 1px;
+    left: 96px;
+    padding: 0px 0px 20px 0px;    
+}
+.feature-inner .featureinner-text h4{
+color: #353854;    
+}
+.feature-inner .featureinner-text p{
+  color: #A5A5A5;  
+}
+
+/*********************************************
+********* feature***********************
+**********************************************/
+
+/********************************
+**********screenshot start
+*******************************/
+
+.screenshot-header{
+
+}
+.screenshot-header h1{
+    font-size: 45px;
+    color: #648CFF; 
+}
+.screenshot-header p{
+    color: #A5A5A5;
+    font-size: 20px;
+    margin: 9px 0px;
+}
+.screenshot {
+    margin: 40px 0px;
+}
+.phone{
+    margin: 0px 0px 0px -100px;
+}
+.screenshot .phone2 {
+    margin: 0px 0px 0px 65px;
+}
+.screenshot-inner{
+    padding: 173px 0px 80px 90px;
+}
+.screenshot-inner .cloudy-icn{
+padding: 15px 0px;
+}
+.screenshot-inner h4{
+    font-size: 40px;
+    color: #648CFF; 
+}
+.screenshot-inner p{
+    color: black;
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+.screenshot-inner .info-img{
+    margin: 10px 0px;
+}
+
+/********************************
+**********screenshot end
+*******************************/
+
+/********************************
+**********swiper start
+*******************************/
+
+.swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+}
+.swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: auto;
+      height: auto;
+      box-shadow: 4px 4px 4px 4px gray;
+}
+
+/********************************
+**********swiper end
+*******************************/
+
+/********************************
+**********review start
+*******************************/
+
+.review{
+
+}
+.review .span1 {
+    font-size: 70px;
+    color: #648CFF;
+    padding: 0px;
+    margin: 0px 0px -52px -18px;
+}
+.review .span2{
+    font-size: 70px;
+    color: #648CFF;
+    margin: 0px 0px 0px 500px;    
+}
+.p1 {
+    color: #6E7085;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 5px 0px 10px 0px;
+}
+.p2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6A6C81;
+}
+
+/********************************
+**********review end
+*******************************/
+
+/*********************************
+************download start
+*********************************/
+
+
+.download {
+    background-image: url(../img/download-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 85px 0px;
+}
+.download-inner{
+
+}
+.download-inner h1 {
+    color: white;
+    padding-bottom: 0px;
+    margin: -35px 0px 40px 0px;
+    font-size: 44px;
+}
+.download-inner p {
+    color: white;
+    margin: 0px 0px 15px 0px;
+    font-size: 19px;
+}
+.download-inner ul {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+.download-inner ul li {
+    display: inline-block;
+    padding: 0px 0px;
+}
+
+/*********************************
+************download end
+*********************************/
+
+.footer{
+    background-color: #353854;
+}
+.footer1{
+    border-bottom: 2px solid #3C405F;
+}
+.footer1 nav{
+    background-color: #353854;
+    padding: 30px 0px;
+}
+.footer-p {
+    color: #4d5178;
+    font-size: 16px;
+    padding: 23px 0px;
+    margin: 0px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .social-icn {
+    display: inline;
+    padding: 10px 17px;
+    margin: 0px;
+}
+.social-icn {
+    display: inline;
+    padding: 10px 17px;
+    margin: 0px;
+}
+.banner img {
+    margin: 62px 0px 57px 0px;
+    width: 100%;
+}
+.banner h1 {
+    font-size: 65px;
+    padding: 48px 0px 17px 0px;
+    color: white;
+    margin-left: 15px;
+}
+.banner .btn2 {
+    background: #4466C9;
+    padding: 13px 30px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 31px;
+    text-decoration: none;
+}
+.banner p {
+    font-size: 21px;
+    color: white;
+    margin-bottom: 45px;
+    margin-left: 17px;
+}
+.banner .btn1 {
+    background: #FC6A42;
+    padding: 12px 30px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0px 0px 0px 14px;
+}
+.feature-inner {
+    position: relative;
+    margin: 50px 0px;
+}
+.screenshot .phone2 {
+    width: 100%;
+}
+.screenshot-inner {
+    padding: 0px;
+}
+.phone {
+    width: 100%;
+    margin: 50px 0px;
+}
+.review .span2 {
+    font-size: 70px;
+    color: #648CFF;
+    margin: 0px 0px 0px 298px;
+}
+.p1 {
+    color: #6E7085;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 5px 0px 10px 0px;
+    margin: 0px 0px 0px 29px;
+}
+.p2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6A6C81;
+    margin: 4px 0px 0px 30px;
+}
+.banner {
+    background-image: url(../img/srceen-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+}
+
+}
